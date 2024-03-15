@@ -1,10 +1,11 @@
 # [JSL02] Submission: Debug the DOM
 
-You will: 
-1. Use the Starter Code Repo, 
+You will:
+
+1. Use the Starter Code Repo,
 2. Code your solution,
 3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
+4. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
 
 # Debugging Duplicate Goals
 
@@ -22,6 +23,7 @@ In the current code, users can add the same fitness goal multiple times, leading
 - Focus on the code structure within the function and how to handle duplicates.
 
 **Explanation:**
+
 1. We first retrieve all the existing goals in the `goalList` using `querySelectorAll`.
 2. Then, we iterate through each existing goal and compare its text content with the new goal input.
 3. If a duplicate is found, we display an alert message and exit the function using `return` to prevent the duplicate goal from being added.
